@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ruby on Rails Tutorial Sample App | <%= yield(:title) %></title>
+<title><%= full_title(yield(:title)) %></title>
   <a href="home">home page</a><br />
   <a href="about">about page</a><br />
   <a href="help">help page</a><br />
@@ -16,4 +16,3 @@
 
 </body>
 </html>
-
